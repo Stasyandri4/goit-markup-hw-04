@@ -1,0 +1,23 @@
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-heading {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.feature-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.feature-list-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
