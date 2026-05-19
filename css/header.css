@@ -36,15 +36,20 @@
   color: #404bbf;
 }
 
-.nav-link-active:active::after {
+.nav-link-active {
+  color: #404bbf;
+  position: relative;
+}
+
+.nav-link-active::after {
   content: "";
   display: block;
-  width: 65px;
+  width: 100%;
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
   position: absolute;
-  bottom: 1px;
+  bottom: 0;
 }
 
 .contact-info {
