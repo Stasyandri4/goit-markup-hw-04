@@ -13,8 +13,8 @@
 .nav-menu,
 .address-menu {
   display: inline-flex;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  margin-top: 21px;
+  margin-bottom: 21px;
   gap: 40px;
 }
 
