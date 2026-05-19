@@ -1,7 +1,8 @@
 .header {
-  border-right: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
+  box-shadow:
+    0 1px #e7e9fc,
+    1px 0 #e7e9fc,
+    -1px 0 #e7e9fc;
 }
 
 .nav-menu {

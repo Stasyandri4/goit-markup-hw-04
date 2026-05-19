@@ -13,11 +13,11 @@
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
+  background-color: #f4f4fd;
 }
 
 .feature-icon-container svg {
   fill: #2e2f42;
-  background-color: #f4f4fd;
 }
 
 .features-heading {
